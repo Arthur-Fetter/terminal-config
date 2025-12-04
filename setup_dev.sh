@@ -22,7 +22,9 @@ background-opacity = 0.7
 background-blur-radius = 20" > config
 
 # Enable vi mode on terminal
-set -o vi
+echo "Enable vi mode on the terminal" >> ~/.zshrc
+echo "set -o vi" >> ~/.zshrc
+echo ""
 
 # Install useful tools
 # git
